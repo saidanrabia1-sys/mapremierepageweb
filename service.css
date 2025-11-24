@@ -1,6 +1,23 @@
-h1
-    h1 {
-    font-size: 3.5em;
-    color:red;
-    font-family: 'Montserrat',sans-serif;
+/* Ici, je redige la feuille de style pour mettre en forme le fichier service.html*/
+#divsolid{
+    /*je change la couleur de mon texte et l'arriere plan de mon texte */
+    color: red;
+    background-color:paleturquoise;
+    border:solid ;
+   
+}
+#divdouble{
+    color: blueviolet;
+    background-color: beige;
+    border: double;
+}
+#divdotted{
+    color: brown;
+    background-color: blanchedalmond;
+    border: dotted;
+}
+#divdashed{
+    color: black;
+    background-color:yellowgreen ;
+    border: dashed;
 }

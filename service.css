@@ -3,21 +3,34 @@
     /*je change la couleur de mon texte et l'arriere plan de mon texte */
     color: red;
     background-color:paleturquoise;
-    border:solid ;
-   
+    border:solid ; 
 }
 #divdouble{
+     /*je change la couleur de mon texte et l'arriere plan de mon texte */
     color: blueviolet;
     background-color: beige;
     border: double;
 }
 #divdotted{
+     /*je change la couleur de mon texte et l'arriere plan de mon texte */
     color: brown;
     background-color: blanchedalmond;
     border: dotted;
 }
 #divdashed{
+     /*je change la couleur de mon texte et l'arriere plan de mon texte */
     color: black;
     background-color:yellowgreen ;
     border: dashed;
+}
+    /* Je mets en forme ma page web.*/
+#div1{
+    border:solid;
+    color: red;
+     border-radius: 25px 10px 45px 45px;
+}
+#div2{
+     border:double;
+    color:blue;
+     border-radius:15px;
 }

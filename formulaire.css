@@ -1,0 +1,19 @@
+/* Je mets en forme ma page web.*/
+form{
+    background-color: violet;
+    
+
+}
+div{ /* je selectionne tous les divs */
+  color: black;
+  display:inline;
+  margin-left: 15px;
+
+}
+ /* je selectionne tous les inputs type text et date */
+input[type=text] , [ type=date]{
+  padding: 7px ; /*Ajoute un espace à l'interieur de la balise <inpute>*/
+  margin: 15px; /* Ajoute un espace à l'exterieur de la balise <inpute>*/
+  border-radius: 13% ;
+
+}

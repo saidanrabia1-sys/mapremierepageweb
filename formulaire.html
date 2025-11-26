@@ -6,57 +6,73 @@
         <!--j'initialise mon code avec la balise HTML-->
         <meta charset="utf-8">
         <title>formulaire</title>
+        <link rel="stylesheet" href="formulaire.css">
          <!--j'ai créé l'entete de mon fichier-->
         
     </head>
+    
+
     <body>
           <!--je rédige la structure du formulaire d'inscriti -->
     <form> <!--Début de formulaire-->
-        <div>
+
+          <div>
           <label  for="prenom"> Prénom </label>
-            <input type="texte" name="prenom" id="prenom">
-         <label for="name"> Nom </label> 
-            <input type="text" name="nom" id="nom">
-        </div>
-        <div>
-            <br><br> 
-           <label> Date de naissance
-            <input type="date" name="dateNaissance"> 
-          
-            <label for="village"> village </label>
-            <input type="text" name="village" id="village">
-        </div>
-           
-        <div>
+          <input type="text" name="prenom" id="prenom">
+          <label for="name"> Nom </label> 
+          <input type="text" name="nom" id="nom">
+          </div>
+        
           <br><br>
-            <label> Genre: </label>
+          <div> 
+          <label> Date de naissance
+          <input type="date" name="dateNaissance"> 
+          
+          <label for="village"> village </label>
+          <input type="text" name="village" id="village">
+          </div>
+           
+        
+          <br><br>
+          <div>
+          <label> Genre: </label>
           <label for="sexfeminin">F</label>
           <input type="radio" name="sex" id="sexfeminin">
           <label for="sexmasculin">M</label>
           <input type="radio" name="sex" id="sexmasculin">
-        </div>
-        <div>
+          </div>
+        
+        
           <br><br>
-           <label> Disciplines: </label>
+          <div>
+          <label> Disciplines: </label>
           <label for="maths"> Maths </label>
-          <input type="checkbox" name="sex" id="Maths">
+          <input type="checkbox" name="Maths" id="Maths">
+          </div>
           <br>
-          <label for="histoire geogaohie">histoire geographie</label>
-          <input type="checkbox" name="sex" id="histoire geographie">
+          <div>
+          <label for="histoire geographie">histoire geographie</label>
+          <input type="checkbox" name="histoire geographie" id="histoire geographie">
+          </div>
           <br>
+          <div>
           <label for="eps"> EPS </label>
           <input type="checkbox" name="eps" id="eps">
-        </div>
-        <div>
+          </div>
+        
+        
           <br><br>
-          <label> Email: </label>
-             <input type="texte" name="email" id="email">
-        </div>
-        <div>
+          <div>
+          <label for="email"> Email: </label>
+          <input type="text" name="sex" id="email">
+          </div>
+
           <br><br>
-         
+          <div>
           <input type="submit" value="Envoyer">
-        </div>
+          </div>
+          <br><br>
+
     </form> 
     </body>
         

@@ -1,0 +1,56 @@
+/* Je mets en forme ma page web.*/
+
+*{
+    box-sizing: border-box;
+}
+
+/*Mise en forme pour l'entête*/
+header{
+    background-color:#666; /*l'arrière plan est colorié en gris*/
+    padding: 20px; /*j'ai modofié la hauteur de mon triangle*/
+    text-align: center; /*j'ai centré mon texte*/
+    color: white; /*j'ai modifié la couleur de mon texte*/
+    font-size: 30px; /*j'ai changé la taille de mon ecriture*/
+
+}
+
+/* mise en forme de la section */
+section{
+    /*optimise l'affichage sur différents tailles d'écrans*/
+    display: -webkit-flex;
+    display: flex;
+}
+
+/*Mise en forme de la barre de navigateur <nav> */
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+} 
+
+/*Mise en forme de la liste ul de la balise <nav>*/
+nav ul {
+    list-style-type: none; /* je retire la puce de la liste */
+    padding: 0;
+}
+
+/* Mise en forme de la vue article <article>*/
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+    text-align:center;
+    background-color: white;
+    color: black; /*j'ai modifié la couleur de mon texte*/
+
+}
+ /*Mise en forme du pied de page <footer> */
+footer{
+    text-align: center;
+    background-color: #777;
+    color: white;
+    padding: 10px;
+}
